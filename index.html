@@ -1,0 +1,990 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- Security Headers -->
+    <meta http-equiv="Content-Security-Policy"
+        content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: https:; connect-src 'self';">
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta http-equiv="X-Frame-Options" content="SAMEORIGIN">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+
+    <!-- SEO Meta Tags -->
+    <meta name="description"
+        content="Bandarawela Dairy Producers Cooperative Society Ltd. - Ensuring guaranteed milk prices and quality dairy products since 1979. Ceylon Tasty dairy products from Uva Province, Sri Lanka.">
+    <meta name="keywords"
+        content="Bandarawela dairy, Ceylon Tasty, Sri Lankan dairy, Uva Province dairy, dairy cooperative, fresh milk Sri Lanka">
+    <meta name="author" content="Bandarawela Dairy Producers Cooperative Society Ltd.">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Bandarawela Dairy Producers Cooperative Society Ltd.">
+    <meta property="og:description" content="Quality dairy products and guaranteed prices for farmers since 1979">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="en_LK">
+    <meta property="og:locale:alternate" content="si_LK">
+
+    <title>Bandarawela Dairy Producers Cooperative Society Ltd. | Ceylon Tasty Dairy Products</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Open+Sans:wght@400;600&family=Noto+Sans+Sinhala:wght@400;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/animations.css">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/images/logo.jpg">
+</head>
+
+<body>
+    <!-- Skip to main content for accessibility -->
+    <a href="#main-content" class="skip-to-content">Skip to main content</a>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <div class="nav-brand">
+                <img src="assets/images/logo.jpg" alt="Bandarawela Dairy Logo" class="logo">
+                <div class="brand-text">
+                    <span class="brand-name" data-en="MILK COOP Bandarawela " data-si="බණ්ඩාරවෙල කිරි නිෂ්පාදක සමුපකාරය">MILK COOP Bandarawela</span>
+                    <span class="brand-tagline" data-en="Since 1979" data-si="1979 සිට">Since 1979</span>
+                </div>
+            </div>
+
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+                <span class="hamburger"></span>
+            </button>
+
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link active" data-en="Home" data-si="මුල් පිටුව">Home</a></li>
+                <li><a href="#about" class="nav-link" data-en="About" data-si="අප ගැන">About</a></li>
+                <li><a href="#products" class="nav-link" data-en="Products" data-si="නිෂ්පාදන">Products</a></li>
+                <li><a href="#farmers" class="nav-link" data-en="For Farmers" data-si="ගොවීන් සඳහා">For Farmers</a></li>
+                <li><a href="#services" class="nav-link" data-en="Services" data-si="සේවා">Services</a></li>
+                <li><a href="#news" class="nav-link" data-en="News" data-si="පුවත්">News</a></li>
+                <li><a href="#contact" class="nav-link" data-en="Contact" data-si="සම්බන්ධතා">Contact</a></li>
+                <li>
+                    <button class="lang-toggle" id="langToggle" aria-label="Switch language">
+                        <span class="lang-current">EN</span>
+                        <span class="lang-divider">|</span>
+                        <span class="lang-alt">සිං</span>
+                    </button>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main id="main-content">
+        <!-- Hero Section -->
+        <section class="hero parallax-section" id="home">
+            <div class="hero-overlay"></div>
+            <div class="container hero-container">
+                <div class="hero-content fade-in-up">
+                    <h1 class="hero-title" data-en="Bandarawela Dairy Producers Cooperative Society Ltd."
+                        data-si="බණ්ඩාරවෙල කිරි නිෂ්පාදක සමුපකාර සංගමය">
+                        Bandarawela Dairy Producers Cooperative Society Ltd.
+                    </h1>
+                    <p class="hero-subtitle" data-en="Empowering Dairy Farmers Since 1979"
+                        data-si="1979 සිට කිරි ගොවීන් සවිබල ගැන්වීම">
+                        Empowering Dairy Farmers Since 1979
+                    </p>
+                    <p class="hero-tagline" data-en="Guaranteed prices • Quality products • Community growth"
+                        data-si="සහතික මිල • ගුණාත්මක නිෂ්පාදන • ප්‍රජා සංවර්ධනය">
+                        Guaranteed prices • Quality products • Community growth
+                    </p>
+                    <div class="hero-cta">
+                        <a href="#farmers" class="btn btn-primary" data-en="Join Our Cooperative"
+                            data-si="අපගේ සමුපකාරයට එක්වන්න">Join Our Cooperative</a>
+                        <a href="#products" class="btn btn-secondary" data-en="Our Products" data-si="අපගේ නිෂ්පාදන">Our
+                            Products</a>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+
+        <!-- Statistics Section -->
+        <section class="stats-section">
+            <div class="container">
+                <div class="stats-grid">
+                    <div class="stat-card fade-in">
+                        <div class="stat-number" data-count="45">0</div>
+                        <div class="stat-label" data-en="Years of Service" data-si="සේවා වසර">Years of Service</div>
+                    </div>
+                    <div class="stat-card fade-in">
+                        <div class="stat-number" data-count="850">0</div>
+                        <div class="stat-label" data-en="Dairy Farmers" data-si="කිරි ගොවීන්">Dairy Farmers</div>
+                    </div>
+                    <div class="stat-card fade-in">
+                        <div class="stat-number" data-count="24">0</div>
+                        <div class="stat-label" data-en="Collection Centers" data-si="එකතු කිරීමේ මධ්‍යස්ථාන">Collection
+                            Centers</div>
+                    </div>
+                    <div class="stat-card fade-in">
+                        <div class="stat-number" data-count="15">0</div>
+                        <div class="stat-label" data-en="Key Products" data-si="ප්‍රධාන නිෂ්පාදන">Key Products</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Preview -->
+        <section class="about-preview section-padding" id="about-preview">
+            <div class="container">
+                <div class="section-header text-center">
+                    <h2 class="section-title" data-en="About Our Cooperative" data-si="අපගේ සමුපකාරය ගැන">About Our
+                        Cooperative</h2>
+                    <p class="section-subtitle"
+                        data-en="Registered under the Uva Province Cooperative Development Department"
+                        data-si="ඌව පළාත් සමුපකාර සංවර්ධන දෙපාර්තමේන්තුව යටතේ ලියාපදිංචි">
+                        Registered under the Uva Province Cooperative Development Department
+                    </p>
+                </div>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p data-en="The Bandarawela Dairy Producers Cooperative Society Ltd. was established in 1979 with a clear mission: to ensure guaranteed milk prices for dairy farmers while improving their living standards and livelihoods."
+                            data-si="බණ්ඩාරවෙල කිරි නිෂ්පාදක සමුපකාර සංගමය 1979 දී පිහිටුවන ලද්දේ පැහැදිලි මෙහෙවරකින් යුක්තව: කිරි ගොවීන්ට සහතික කළ කිරි මිල තහවුරු කිරීම සහ ඔවුන්ගේ ජීවන තත්ත්වය සහ ජීවනෝපාය වැඩිදියුණු කිරීම.">
+                            The Bandarawela Dairy Producers Cooperative Society Ltd. was established in 1979 with a
+                            clear mission: to ensure guaranteed milk prices for dairy farmers while improving their
+                            living standards and livelihoods.
+                        </p>
+                        <p data-en="Operating from the heart of Uva Province, we serve farming communities across Bandarawela, Ella, Hali Ela, Haputale, and surrounding areas. Our commitment to quality, fair pricing, and community development has made us a trusted partner for hundreds of dairy farmers."
+                            data-si="ඌව පළාතේ හදවතේ සිට ක්‍රියාත්මක වන අප, බණ්ඩාරවෙල, ඇල්ල, හාලි ඇල්ල, හපුතලේ සහ අවට ප්‍රදේශවල ගොවිජන ප්‍රජාවන්ට සේවය කරන්නෙමු.">
+                            Operating from the heart of Uva Province, we serve farming communities across Bandarawela,
+                            Ella, Hali Ela, Haputale, and surrounding areas. Our commitment to quality, fair pricing,
+                            and community development has made us a trusted partner for hundreds of dairy farmers.
+                        </p>
+                        <p data-en="Through continuous product development and modern processing facilities, we produce the trusted 'Ceylon Tasty' brand, delivering fresh, safe, and nutritious dairy products to consumers while maintaining competitive market presence."
+                            data-si="අඛණ්ඩ නිෂ්පාදන සංවර්ධනය සහ නවීන සැකසුම් පහසුකම් හරහා, අපි විශ්වාසදායක 'Ceylon Tasty' සන්නාමය නිපදවන අතර, තරඟකාරී වෙළඳපල පැවැත්ම පවත්වා ගනිමින් පාරිභෝගිකයන්ට නැවුම්, ආරක්ෂිත සහ පෝෂ්‍යදායී කිරි නිෂ්පාදන ලබා දෙන්නෙමු.">
+                            Through continuous product development and modern processing facilities, we produce the
+                            trusted 'Ceylon Tasty' brand, delivering fresh, safe, and nutritious dairy products to
+                            consumers while maintaining competitive market presence.
+                        </p>
+                        <a href="#about" class="btn btn-outline" data-en="Learn More" data-si="තව දැන ගන්න">Learn
+                            More</a>
+                    </div>
+                    <div class="about-image">
+                        <img src="assets/images/m3.jpg" alt="Bandarawela Dairy processing facility" loading="lazy">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Products Section -->
+        <section class="products-section section-padding" id="products">
+            <div class="container">
+                <div class="section-header text-center">
+                    <h2 class="section-title" data-en="Ceylon Tasty Products" data-si="Ceylon Tasty නිෂ්පාදන">Ceylon
+                        Tasty Products</h2>
+                    <p class="section-subtitle" data-en="Fresh, Quality Dairy Products from Uva Province"
+                        data-si="ඌව පළාතෙන් නැවුම්, ගුණාත්මක කිරි නිෂ්පාදන">
+                        Fresh, Quality Dairy Products from Uva Province
+                    </p>
+                </div>
+
+                <div class="product-filters">
+                    <button class="filter-btn active" data-filter="all" data-en="All Products"
+                        data-si="සියලු නිෂ්පාදන">All Products</button>
+                    <button class="filter-btn" data-filter="milk" data-en="Milk" data-si="කිරි">Milk</button>
+                    <button class="filter-btn" data-filter="yogurt" data-en="Yogurt" data-si="යෝගට්">Yogurt</button>
+                    <button class="filter-btn" data-filter="curd" data-en="Curd" data-si="මුදවපු">Curd</button>
+                    <button class="filter-btn" data-filter="other" data-en="Other" data-si="වෙනත්">Other</button>
+                </div>
+
+                <div class="products-grid">
+                    <!-- Product 1: Fresh Milk -->
+                    <article class="product-card" data-category="milk">
+                        <div class="product-badge badge-fresh" data-en="Fresh" data-si="නැවුම්">Fresh</div>
+                        <div class="product-image-wrapper">
+                            <img src="assets/images/kal.jpg" alt="Ceylon Tasty Fresh Milk" loading="lazy">
+                        </div>
+                        <div class="product-content">
+                            <h3 class="product-name" data-en="Fresh Milk" data-si="නැවුම් කිරි">Fresh Milk</h3>
+                            <p class="product-description" data-en="Pasteurized full cream milk from local dairy farms"
+                                data-si="දේශීය කිරි ගොවිපලවල් වලින් පැස්චරීකරණය කළ සම්පූර්ණ ක්‍රීම් කිරි">
+                                Pasteurized full cream milk from local dairy farms
+                            </p>
+                            <ul class="product-specs">
+                                <li data-en="500ml & 1L bottles" data-si="500ml සහ 1L බෝතල්">500ml & 1L bottles</li>
+                                <li data-en="Keep refrigerated" data-si="ශීතකරණයේ තබන්න">Keep refrigerated</li>
+                                <li data-en="3-day shelf life" data-si="දින 3 ක ආයු කාලය">3-day shelf life</li>
+                            </ul>
+                        </div>
+                    </article>
+
+                    <!-- Product 2: Yogurt -->
+                    <article class="product-card" data-category="yogurt">
+                        <div class="product-badge badge-popular" data-en="Popular" data-si="ජනප්‍රිය">Popular</div>
+                        <div class="product-image-wrapper">
+                            <img src="assets/images/y3.jpg" alt="Ceylon Tasty Yogurt" loading="lazy">
+                        </div>
+                        <div class="product-content">
+                            <h3 class="product-name" data-en="Set Yogurt" data-si="යෝගට්">Set Yogurt</h3>
+                            <p class="product-description"
+                                data-en="Creamy yogurt with live cultures, available in multiple flavors"
+                                data-si="සජීවී සංස්කෘතීන් සහිත ක්‍රීම් යෝගට්, විවිධ රසයන්හි ලබා ගත හැක">
+                                Creamy yogurt with live cultures, available in multiple flavors
+                            </p>
+                            <ul class="product-specs">
+                                <li data-en="80ml cups" data-si="80ml කෝප්ප">80ml cups</li>
+                                <li data-en="Natural & Fruit flavors" data-si="ස්වාභාවික සහ පලතුරු රසයන්">Natural &
+                                    Fruit flavors</li>
+                                <li data-en="7-day shelf life" data-si="දින 7 ක ආයු කාලය">7-day shelf life</li>
+                            </ul>
+                        </div>
+                    </article>
+
+                    <!-- Product 3: Curd -->
+                    <article class="product-card" data-category="curd">
+                        <div class="product-badge badge-traditional" data-en="Traditional" data-si="සාම්ප්‍රදායික">
+                            Traditional</div>
+                        <div class="product-image-wrapper">
+                            <img src="assets/images/kiri.jpg" alt="Ceylon Tasty Curd" loading="lazy">
+                        </div>
+                        <div class="product-content">
+                            <h3 class="product-name" data-en="Milk Toffe" data-si="කිරි ටොෆි">Milk Toffe</h3>
+                            <p class="product-description"
+                                data-en="Traditional Sri Lankan curd made from pure buffalo milk"
+                                data-si="පිරිසිදු කිරි වලින් සාදන ලද සම්ප්‍රදායික ශ්‍රී ලංකා කිරි ටොෆි">
+                                Traditional Sri Lankan milk toffe made from pure buffalo milk
+                            </p>
+                            <ul class="product-specs">
+                                <li data-en="Clay pot & plastic cups" data-si="මැටි බඳුන් සහ ප්ලාස්ටික් කෝප්ප">Clay pot
+                                    & plastic cups</li>
+                                <li data-en="No preservatives" data-si="කිසිදු කල් තබා ගන්නා ද්‍රව්‍ය නැත">No
+                                    preservatives</li>
+                                <li data-en="Best with treacle" data-si="පැණිය සමඟ හොඳම">Best with treacle</li>
+                            </ul>
+                        </div>
+                    </article>
+
+                    <!-- Product 4: Flavored Milk -->
+                    <article class="product-card" data-category="milk">
+                        <div class="product-badge badge-fresh" data-en="Fresh" data-si="නැවුම්">Fresh</div>
+                        <div class="product-image-wrapper">
+                            <img src="assets/images/kal2.jpg" alt="Ceylon Tasty Flavored Milk"
+                                loading="lazy">
+                        </div>
+                        <div class="product-content">
+                            <h3 class="product-name" data-en="Flavored Milk" data-si="රස කළ කිරි">Flavored Milk</h3>
+                            <p class="product-description" data-en="Delicious flavored milk drinks for all ages"
+                                data-si="සියලු වයස්වල අය සඳහා රසවත් රස කළ කිරි බීම">
+                                Delicious flavored milk drinks for all ages
+                            </p>
+                            <ul class="product-specs">
+                                <li data-en="200ml packets" data-si="200ml පැකට්">200ml packets</li>
+                                <li data-en="Chocolate, Strawberry, Vanilla" data-si="චොකලට්, ස්ට්‍රෝබෙරි, වැනිලා">
+                                    Chocolate, Strawberry, Vanilla</li>
+                                <li data-en="Keep chilled" data-si="සිසිල් තබන්න">Keep chilled</li>
+                            </ul>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="text-center section-cta">
+                    <a href="products.html" class="btn btn-primary" data-en="View All Products"
+                        data-si="සියලු නිෂ්පාදන බලන්න">View All Products</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Farmer Benefits Section -->
+        <section class="farmers-section parallax-section section-padding" id="farmers">
+            <div class="section-overlay"></div>
+            <div class="container">
+                <div class="section-header text-center">
+                    <h2 class="section-title light" data-en="Benefits for Dairy Farmers"
+                        data-si="කිරි ගොවීන්ට ප්‍රතිලාභ">Benefits for Dairy Farmers</h2>
+                    <p class="section-subtitle light" data-en="Join our cooperative and grow with us"
+                        data-si="අපගේ සමුපකාරයට එක්වී අප සමඟ වර්ධනය වන්න">
+                        Join our cooperative and grow with us
+                    </p>
+                </div>
+
+                <div class="benefits-grid">
+                    <div class="benefit-card fade-in">
+                        <div class="benefit-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M12 2v20M2 12h20" />
+                            </svg>
+                        </div>
+                        <h3 class="benefit-title" data-en="Guaranteed Milk Price" data-si="සහතික කිරි මිල">Guaranteed
+                            Milk Price</h3>
+                        <p class="benefit-description"
+                            data-en="Fair and consistent pricing that protects farmers from market fluctuations"
+                            data-si="වෙළඳපල උච්චාවචනයන්ගෙන් ගොවීන් ආරක්ෂා කරන සාධාරණ සහ ස්ථාවර මිල නියම කිරීම">
+                            Fair and consistent pricing that protects farmers from market fluctuations
+                        </p>
+                    </div>
+
+                    <div class="benefit-card fade-in">
+                        <div class="benefit-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M22 10v6M2 10l10-5 10 5-10 5z" />
+                                <path d="M6 12v5c3 3 9 3 12 0v-5" />
+                            </svg>
+                        </div>
+                        <h3 class="benefit-title" data-en="Training Programs" data-si="පුහුණු වැඩසටහන්">Training
+                            Programs</h3>
+                        <p class="benefit-description"
+                            data-en="Regular workshops on modern dairy farming, animal health, and best practices"
+                            data-si="නවීන කිරි ගොවිත්වය, සත්ව සෞඛ්‍යය සහ හොඳම භාවිතයන් පිළිබඳ නිත්‍ය වැඩමුළු">
+                            Regular workshops on modern dairy farming, animal health, and best practices
+                        </p>
+                    </div>
+
+                    <div class="benefit-card fade-in">
+                        <div class="benefit-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M9 11l3 3L22 4" />
+                                <path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11" />
+                            </svg>
+                        </div>
+                        <h3 class="benefit-title" data-en="Quality Testing" data-si="ගුණාත්මක පරීක්ෂණ">Quality Testing
+                        </h3>
+                        <p class="benefit-description"
+                            data-en="Free milk quality testing at collection centers with immediate results"
+                            data-si="එකතු කිරීමේ මධ්‍යස්ථානවල නොමිලේ කිරි ගුණාත්මක පරීක්ෂණ සහ ක්ෂණික ප්‍රතිඵල">
+                            Free milk quality testing at collection centers with immediate results
+                        </p>
+                    </div>
+
+                    <div class="benefit-card fade-in">
+                        <div class="benefit-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10" />
+                                <path d="M12 6v6l4 2" />
+                            </svg>
+                        </div>
+                        <h3 class="benefit-title" data-en="Collection Services" data-si="එකතු කිරීමේ සේවා">Collection
+                            Services</h3>
+                        <p class="benefit-description"
+                            data-en="24 convenient collection centers across the region with flexible timings"
+                            data-si="නම්‍යශීලී වේලාවන් සහිත කලාපය පුරා පහසු එකතු කිරීමේ මධ්‍යස්ථාන 24 ක්">
+                            24 convenient collection centers across the region with flexible timings
+                        </p>
+                    </div>
+
+                    <div class="benefit-card fade-in">
+                        <div class="benefit-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="3" y="3" width="18" height="18" rx="2" />
+                                <path d="M9 3v18M15 3v18M3 9h18M3 15h18" />
+                            </svg>
+                        </div>
+                        <h3 class="benefit-title" data-en="Infrastructure Support" data-si="යටිතල පහසුකම් සහාය">
+                            Infrastructure Support</h3>
+                        <p class="benefit-description"
+                            data-en="Assistance with chilling facilities, equipment, and farm improvements"
+                            data-si="සිසිලන පහසුකම්, උපකරණ සහ ගොවිපල වැඩිදියුණු කිරීම සඳහා සහාය">
+                            Assistance with chilling facilities, equipment, and farm improvements
+                        </p>
+                    </div>
+
+                    <div class="benefit-card fade-in">
+                        <div class="benefit-icon">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2" />
+                                <circle cx="9" cy="7" r="4" />
+                                <path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75" />
+                            </svg>
+                        </div>
+                        <h3 class="benefit-title" data-en="Community Support" data-si="ප්‍රජා සහාය">Community Support
+                        </h3>
+                        <p class="benefit-description"
+                            data-en="Strong farmer network, cooperative decision-making, and social welfare programs"
+                            data-si="ශක්තිමත් ගොවි ජාලය, සමුපකාර තීරණ ගැනීම සහ සමාජ සුභසාධන වැඩසටහන්">
+                            Strong farmer network, cooperative decision-making, and social welfare programs
+                        </p>
+                    </div>
+                </div>
+
+                <div class="text-center section-cta">
+                    <a href="farmers.html" class="btn btn-light" data-en="Learn How to Join"
+                        data-si="එක්වන ආකාරය ඉගෙන ගන්න">Learn How to Join</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Impact CTA Strip -->
+        <section class="impact-strip">
+            <div class="container">
+                <div class="impact-content">
+                    <h2 data-en="Improving Rural Livelihoods, Contributing to Local Economy"
+                        data-si="ග්‍රාමීය ජීවනෝපාය වැඩිදියුණු කිරීම, දේශීය ආර්ථිකයට දායක වීම">
+                        Improving Rural Livelihoods, Contributing to Local Economy
+                    </h2>
+                    <a href="#contact" class="btn btn-primary" data-en="Get in Touch" data-si="අප හා සම්බන්ධ වන්න">Get
+                        in Touch</a>
+                </div>
+            </div>
+        </section>
+
+<!-- ============================================================
+     AWARDS & ACHIEVEMENTS SECTION
+     Professional showcase of your cooperative's recognition
+     ============================================================ -->
+
+<section id="awards" class="section-padding">
+    <div class="container">
+        <!-- Section Header -->
+        <div class="section-header text-center">
+            <h2 class="section-title" data-en="Awards & Achievements" data-si="සම්මාන සහ ජයග්‍රහණ">
+                Awards & Achievements
+            </h2>
+            <p class="section-subtitle" data-en="Recognition of our commitment to quality and farmer welfare"
+                data-si="ගුණාත්මකභාවය සහ ගොවි සුභසාධනය සඳහා වන අපගේ කැපවීම පිළිගැනීම">
+                Recognition of our commitment to quality and farmer welfare
+            </p>
+        </div>
+
+        <!-- Awards Grid -->
+        <div class="awards-grid">
+            <!-- Award Card 1 -->
+            <div class="award-card fade-in-up">
+                <div class="award-image">
+                    <img src="assets/images/c.jpg" alt="National Quality Award" loading="lazy">
+                    <div class="award-year">2024</div>
+                </div>
+                <div class="award-content">
+                    <h3 data-en="National Quality Award" data-si="ජාතික ගුණාත්මක සම්මානය">
+                        National Quality Award
+                    </h3>
+                    <p data-en="Recognized for excellence in dairy production and quality standards"
+                        data-si="කිරි නිෂ්පාදනය සහ ගුණාත්මක ප්‍රමිතිවල විශිෂ්ටත්වය සඳහා පිළිගැනීම">
+                        Recognized for excellence in dairy production and quality standards
+                    </p>
+                    <span class="award-category">Quality Excellence</span>
+                </div>
+            </div>
+
+            <!-- Award Card 2 -->
+            <div class="award-card fade-in-up">
+                <div class="award-image">
+                    <img src="assets/images/c2.jpg" alt="Best Cooperative Award" loading="lazy">
+                    <div class="award-year">2023</div>
+                </div>
+                <div class="award-content">
+                    <h3>Best Cooperative Society</h3>
+                    <p>Awarded by Uva Province Cooperative Development Department</p>
+                    <span class="award-category">Cooperative Excellence</span>
+                </div>
+            </div>
+
+            <!-- Award Card 3 -->
+            <div class="award-card fade-in-up">
+                <div class="award-image">
+                    <img src="assets/images/c3.jpg" alt="Farmer Welfare Award" loading="lazy">
+                    <div class="award-year">2023</div>
+                </div>
+                <div class="award-content">
+                    <h3>Outstanding Farmer Support</h3>
+                    <p>For exceptional contribution to dairy farmer livelihoods</p>
+                    <span class="award-category">Community Impact</span>
+                </div>
+            </div>
+
+            <!-- Award Card 4 -->
+            <div class="award-card fade-in-up">
+                <div class="award-image">
+                    <img src="assets/images/c4.jpg" alt="Innovation Award" loading="lazy">
+                    <div class="award-year">2022</div>
+                </div>
+                <div class="award-content">
+                    <h3>Innovation in Dairy Processing</h3>
+                    <p>Recognition for modernizing dairy collection and processing</p>
+                    <span class="award-category">Innovation</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+        <!-- Services Section -->
+        <section class="services-section section-padding" id="services">
+            <div class="container">
+                <div class="section-header text-center">
+                    <h2 class="section-title" data-en="Our Services" data-si="අපගේ සේවා">Our Services</h2>
+                    <p class="section-subtitle" data-en="Comprehensive dairy solutions from farm to consumer"
+                        data-si="ගොවිපලේ සිට පාරිභෝගිකයා දක්වා පුළුල් කිරි විසඳුම්">
+                        Comprehensive dairy solutions from farm to consumer
+                    </p>
+                </div>
+
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon">🥛</div>
+                        <h3 class="service-title" data-en="Milk Collection & Chilling"
+                            data-si="කිරි එකතු කිරීම සහ සිසිලන">Milk Collection & Chilling</h3>
+                        <p class="service-description"
+                            data-en="Daily milk collection from farms with immediate chilling to maintain freshness and quality"
+                            data-si="නැවුම් බව සහ ගුණාත්මකභාවය පවත්වා ගැනීම සඳහා ක්ෂණික සිසිලන සමඟ ගොවිපලවල් වලින් දෛනික කිරි එකතු කිරීම">
+                            Daily milk collection from farms with immediate chilling to maintain freshness and quality
+                        </p>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-icon">🏭</div>
+                        <h3 class="service-title" data-en="Pasteurization & Processing" data-si="පැස්චරීකරණය සහ සැකසීම">
+                            Pasteurization & Processing</h3>
+                        <p class="service-description"
+                            data-en="Modern processing facilities ensuring safe, hygienic dairy products meeting national standards"
+                            data-si="ජාතික ප්‍රමිතීන්ට අනුකූල ආරක්ෂිත, සනීපාරක්ෂක කිරි නිෂ්පාදන සහතික කරන නවීන සැකසුම් පහසුකම්">
+                            Modern processing facilities ensuring safe, hygienic dairy products meeting national
+                            standards
+                        </p>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-icon">🔬</div>
+                        <h3 class="service-title" data-en="Quality Testing & Lab Analysis"
+                            data-si="ගුණාත්මක පරීක්ෂණ සහ රසායනාගාර විශ්ලේෂණය">Quality Testing & Lab Analysis</h3>
+                        <p class="service-description"
+                            data-en="Comprehensive testing for fat content, protein, bacterial count, and adulterants at every stage"
+                            data-si="සෑම අදියරකදීම මේද අන්තර්ගතය, ප්‍රෝටීන්, බැක්ටීරියා ගණන සහ කල්පවත්වන්නන් සඳහා පුළුල් පරීක්ෂණ">
+                            Comprehensive testing for fat content, protein, bacterial count, and adulterants at every
+                            stage
+                        </p>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-icon">🚛</div>
+                        <h3 class="service-title" data-en="Transport & Distribution" data-si="ප්‍රවාහනය සහ බෙදා හැරීම">
+                            Transport & Distribution</h3>
+                        <p class="service-description"
+                            data-en="Reliable cold chain logistics delivering products to retailers across the region"
+                            data-si="කලාපය පුරා සිල්ලර වෙළෙන්දන්ට නිෂ්පාදන ලබා දෙන විශ්වාසදායක සීතල දාම සැපයුම් දාමය">
+                            Reliable cold chain logistics delivering products to retailers across the region
+                        </p>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-icon">👨‍🏫</div>
+                        <h3 class="service-title" data-en="Advisory & Training Services"
+                            data-si="උපදේශන සහ පුහුණු සේවා">Advisory & Training Services</h3>
+                        <p class="service-description"
+                            data-en="Expert guidance on animal nutrition, breeding, disease prevention, and farm management"
+                            data-si="සත්ව පෝෂණය, අභිජනනය, රෝග වැළැක්වීම සහ ගොවිපල කළමණාකරණය පිළිබඳ ප්‍රවීණ මග පෙන්වීම">
+                            Expert guidance on animal nutrition, breeding, disease prevention, and farm management
+                        </p>
+                    </div>
+
+                    <div class="service-card">
+                        <div class="service-icon">🏪</div>
+                        <h3 class="service-title" data-en="Retail & Marketing Support"
+                            data-si="සිල්ලර සහ අලෙවිකරණ සහාය">Retail & Marketing Support</h3>
+                        <p class="service-description"
+                            data-en="Brand development, packaging, and market access for cooperative dairy products"
+                            data-si="සමුපකාර කිරි නිෂ්පාදන සඳහා සන්නාම සංවර්ධනය, ඇසුරුම් කිරීම සහ වෙළඳපල ප්‍රවේශය">
+                            Brand development, packaging, and market access for cooperative dairy products
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+<!-- ============================================================
+     GALLERY SECTION
+     Photo gallery showcasing operations and achievements
+     ============================================================ -->
+
+<section id="gallery" class="section-padding bg-light">
+    <div class="container">
+        <!-- Section Header -->
+        <div class="section-header text-center">
+            <h2 class="section-title" data-en="Our Gallery" data-si="අපගේ ගැලරිය">
+                Our Gallery
+            </h2>
+            <p class="section-subtitle" data-en="A glimpse into our operations and community"
+                data-si="අපගේ මෙහෙයුම් සහ ප්‍රජාව පිළිබඳ දර්ශනයක්">
+                A glimpse into our operations and community
+            </p>
+        </div>
+
+        <!-- Gallery Filter Tabs -->
+        <div class="gallery-filters">
+            <button class="gallery-filter-btn active" data-filter="all">
+                <span data-en="All" data-si="සියලුම">All</span>
+            </button>
+            <button class="gallery-filter-btn" data-filter="facilities">
+                <span data-en="Facilities" data-si="පහසුකම්">Facilities</span>
+            </button>
+            <button class="gallery-filter-btn" data-filter="farmers">
+                <span data-en="Farmers" data-si="ගොවීන්">Farmers</span>
+            </button>
+            <button class="gallery-filter-btn" data-filter="products">
+                <span data-en="Products" data-si="නිෂ්පාදන">Products</span>
+            </button>
+            <button class="gallery-filter-btn" data-filter="events">
+                <span data-en="Events" data-si="සිදුවීම්">Events</span>
+            </button>
+        </div>
+
+        <!-- Gallery Grid (Masonry Style) -->
+        <div class="gallery-grid">
+            <!-- Gallery Item 1 -->
+            <div class="gallery-item" data-category="facilities">
+                <img src="assets/images/g1.jpg" alt="Modern processing facility" loading="lazy">
+                <div class="gallery-overlay">
+                    <div class="gallery-info">
+                        <h4>Modern Processing Plant</h4>
+                        <p>State-of-the-art dairy processing</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Gallery Item 2 -->
+            <div class="gallery-item" data-category="farmers">
+                <img src="assets/images/g2.jpg" alt="Farmer training session" loading="lazy">
+                <div class="gallery-overlay">
+                    <div class="gallery-info">
+                        <h4>Farmer Training</h4>
+                        <p>Empowering our members</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Gallery Item 3 -->
+            <div class="gallery-item" data-category="products">
+                <img src="assets/images/y3.jpg" alt="Ceylon Tasty product range" loading="lazy">
+                <div class="gallery-overlay">
+                    <div class="gallery-info">
+                        <h4>Ceylon Tasty Range</h4>
+                        <p>Quality dairy products</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Gallery Item 4 -->
+            <div class="gallery-item" data-category="events">
+                <img src="assets/images/c5.jpg" alt="Award ceremony" loading="lazy">
+                <div class="gallery-overlay">
+                    <div class="gallery-info">
+                        <h4>Award Ceremony</h4>
+                        <p>Celebrating our achievements</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Add more gallery items (12-20 total recommended) -->
+        </div>
+
+        <!-- View More Button -->
+        <div class="text-center section-cta">
+            <button class="btn btn-primary" id="loadMoreGallery">
+                <span data-en="Load More Photos" data-si="තවත් ඡායාරූප">Load More Photos</span>
+            </button>
+        </div>
+    </div>
+</section>
+
+<!-- Lightbox Modal (for full-screen image view) -->
+<div class="gallery-lightbox" id="galleryLightbox">
+    <button class="lightbox-close" aria-label="Close">&times;</button>
+    <button class="lightbox-prev" aria-label="Previous">‹</button>
+    <button class="lightbox-next" aria-label="Next">›</button>
+    <img class="lightbox-image" src="" alt="">
+    <div class="lightbox-caption"></div>
+</div>
+
+
+        <!-- News Section -->
+        <section class="news-section section-padding bg-light" id="news">
+            <div class="container">
+                <div class="section-header text-center">
+                    <h2 class="section-title" data-en="Latest News" data-si="නවතම පුවත්">Latest News</h2>
+                    <p class="section-subtitle" data-en="Stay updated with our cooperative activities"
+                        data-si="අපගේ සමුපකාර ක්‍රියාකාරකම් සමඟ යාවත්කාලීනව සිටින්න">
+                        Stay updated with our cooperative activities
+                    </p>
+                </div>
+
+                <div class="news-grid">
+                    <article class="news-card">
+                        <div class="news-image">
+                            <img src="assets/images/n.jpg" alt="Farmer training workshop" loading="lazy">
+                            <span class="news-tag" data-en="Training" data-si="පුහුණුව">Training</span>
+                        </div>
+                        <div class="news-content">
+                            <time class="news-date" datetime="2026-01-10">10 Jan 2026</time>
+                            <h3 class="news-title" data-en="New Dairy Management Training Program Launched"
+                                data-si="නව කිරි කළමණාකරණ පුහුණු වැඩසටහන දියත් කරන ලදී">
+                                New Dairy Management Training Program Launched
+                            </h3>
+                            <p class="news-excerpt"
+                                data-en="Our cooperative introduces comprehensive training covering modern farming techniques, animal welfare, and business management for member farmers."
+                                data-si="අපගේ සමුපකාරය සාමාජික ගොවීන් සඳහා නවීන ගොවිතැන් ක්‍රමවේද, සත්ව සුභසාධනය සහ ව්‍යාපාර කළමණාකරණය ආවරණය කරන පුළුල් පුහුණුව හඳුන්වා දෙයි.">
+                                Our cooperative introduces comprehensive training covering modern farming techniques,
+                                animal welfare, and business management for member farmers.
+                            </p>
+                            <a href="news-detail.html" class="news-link" data-en="Read more" data-si="තව කියවන්න">Read
+                                more →</a>
+                        </div>
+                    </article>
+
+                    <article class="news-card">
+                        <div class="news-image">
+                            <img src="assets/images/n2.jpg" alt="Ceylon Tasty new product launch" loading="lazy">
+                            <span class="news-tag" data-en="Product" data-si="නිෂ්පාදනය">Product</span>
+                        </div>
+                        <div class="news-content">
+                            <time class="news-date" datetime="2026-01-05">05 Jan 2026</time>
+                            <h3 class="news-title" data-en="Ceylon Tasty Introduces New Flavored Yogurt Range"
+                                data-si="Ceylon Tasty නව රස කළ යෝගට් පරාසය හඳුන්වා දෙයි">
+                                Ceylon Tasty Introduces New Flavored Yogurt Range
+                            </h3>
+                            <p class="news-excerpt"
+                                data-en="Expanding our product line with three new exotic fruit flavors: mango, passion fruit, and wood apple, using natural ingredients."
+                                data-si="ස්වාභාවික අමුද්‍රව්‍ය භාවිතා කරමින් නව විදේශීය පලතුරු රසයන් තුනකින් අපගේ නිෂ්පාදන පෙළ පුළුල් කිරීම: අඹ, පැෂන් ෆෘට් සහ දිවුල්.">
+                                Expanding our product line with three new exotic fruit flavors: mango, passion fruit,
+                                and wood apple, using natural ingredients.
+                            </p>
+                            <a href="news-detail.html" class="news-link" data-en="Read more" data-si="තව කියවන්න">Read
+                                more →</a>
+                        </div>
+                    </article>
+
+                    <article class="news-card">
+                        <div class="news-image">
+                            <img src="assets/images/n3.jpg" alt="Facility modernization" loading="lazy">
+                            <span class="news-tag" data-en="Infrastructure"
+                                data-si="යටිතල පහසුකම්">Infrastructure</span>
+                        </div>
+                        <div class="news-content">
+                            <time class="news-date" datetime="2025-12-28">28 Dec 2025</time>
+                            <h3 class="news-title" data-en="Processing Facility Upgrade Completed"
+                                data-si="සැකසුම් පහසුකම් වැඩිදියුණු කිරීම සම්පූර්ණයි">
+                                Processing Facility Upgrade Completed
+                            </h3>
+                            <p class="news-excerpt"
+                                data-en="State-of-the-art processing equipment installed, increasing production capacity by 40% while maintaining highest quality standards."
+                                data-si="නවීන සැකසුම් උපකරණ ස්ථාපනය කර ඇති අතර, ඉහළම ගුණාත්මක ප්‍රමිතීන් පවත්වා ගනිමින් නිෂ්පාදන ධාරිතාව 40% කින් වැඩි කරයි.">
+                                State-of-the-art processing equipment installed, increasing production capacity by 40%
+                                while maintaining highest quality standards.
+                            </p>
+                            <a href="news-detail.html" class="news-link" data-en="Read more" data-si="තව කියවන්න">Read
+                                more →</a>
+                        </div>
+                    </article>
+                </div>
+
+                <div class="text-center section-cta">
+                    <a href="news.html" class="btn btn-primary" data-en="View All News" data-si="සියලු පුවත් බලන්න">View
+                        All News</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact-section section-padding" id="contact">
+            <div class="container">
+                <div class="section-header text-center">
+                    <h2 class="section-title" data-en="Contact Us" data-si="අප හා සම්බන්ධ වන්න">Contact Us</h2>
+                    <p class="section-subtitle" data-en="Get in touch with our cooperative"
+                        data-si="අපගේ සමුපකාරය සමඟ සම්බන්ධ වන්න">
+                        Get in touch with our cooperative
+                    </p>
+                </div>
+
+                <div class="contact-wrapper">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <div class="contact-icon">📍</div>
+                            <div class="contact-details">
+                                <h3 data-en="Address" data-si="ලිපිනය">Address</h3>
+                                <p data-en="Bandarawela Dairy Cooperative<br>Main Street, Bandarawela<br>Uva Province, Sri Lanka"
+                                    data-si="බණ්ඩාරවෙල කිරි සමුපකාරය<br>ප්‍රධාන වීදිය, බණ්ඩාරවෙල<br>ඌව පළාත, ශ්‍රී ලංකාව">
+                                    DDC motors, Dharmavijaya mawatha,<br>Bandarawela<br>Uva Province, Sri Lanka
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">📞</div>
+                            <div class="contact-details">
+                                <h3 data-en="Phone" data-si="දුරකථනය">Phone</h3>
+                                <p>
+                                    <a href="tel:+94572 230 073">0572 230 073</a><br>
+                                   
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">✉️</div>
+                            <div class="contact-details">
+                                <h3 data-en="Email" data-si="විද්‍යුත් තැපෑල">Email</h3>
+                                <p>
+                                    <a href="mailto:milkcoopb@gmail.com">milkcoopb@gmail.com</a><br>
+                                    
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">🕐</div>
+                            <div class="contact-details">
+                                <h3 data-en="Office Hours" data-si="කාර්යාල වේලාව">Office Hours</h3>
+                                <p data-en="Monday - Friday: 8:00 AM - 5:00 PM<br>Saturday: 8:00 AM - 12:00 PM<br>Sunday: Closed"
+                                    data-si="සඳුදා - සිකුරාදා: 8:00 AM - 5:00 PM<br>සෙනසුරාදා: 8:00 AM - 12:00 PM<br>ඉරිදා: වසා">
+                                    Monday - Friday: 8:00 AM - 5:00 PM<br>Saturday: 8:00 AM - 12:00 PM<br>Sunday: Closed
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <form class="contact-form" id="contactForm" novalidate>
+                        <input type="hidden" name="csrf_token" id="csrfToken" value="">
+
+                        <div class="form-group">
+                            <label for="name" data-en="Name" data-si="නම">Name</label>
+                            <input type="text" id="name" name="name" required data-placeholder-en="Your full name"
+                                data-placeholder-si="ඔබගේ සම්පූර්ණ නම" placeholder="Your full name">
+                            <span class="error-message"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email" data-en="Email" data-si="විද්‍යුත් තැපෑල">Email</label>
+                            <input type="email" id="email" name="email" required data-placeholder-en="your@email.com"
+                                data-placeholder-si="ඔබේ@විද්‍යුත්තැපැල.com" placeholder="your@email.com">
+                            <span class="error-message"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone" data-en="Phone" data-si="දුරකථනය">Phone</label>
+                            <input type="tel" id="phone" name="phone" pattern="^\+?94[0-9]{9}$|^0[0-9]{9}$"
+                                data-placeholder-en="+94 77 123 4567" data-placeholder-si="+94 77 123 4567"
+                                placeholder="+94 77 123 4567">
+                            <span class="error-message"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject" data-en="Subject" data-si="විෂයය">Subject</label>
+                            <select id="subject" name="subject" required>
+                                <option value="" data-en="Select a subject" data-si="විෂයයක් තෝරන්න">Select a subject
+                                </option>
+                                <option value="membership" data-en="Membership Inquiry" data-si="සාමාජිකත්ව විචාරණය">
+                                    Membership Inquiry</option>
+                                <option value="products" data-en="Product Information" data-si="නිෂ්පාදන තොරතුරු">
+                                    Product Information</option>
+                                <option value="services" data-en="Services" data-si="සේවා">Services</option>
+                                <option value="feedback" data-en="Feedback" data-si="ප්‍රතිචාර">Feedback</option>
+                                <option value="other" data-en="Other" data-si="වෙනත්">Other</option>
+                            </select>
+                            <span class="error-message"></span>
+                        </div>
+
+                        <div class="form-group form-group-full">
+                            <label for="message" data-en="Message" data-si="පණිවිඩය">Message</label>
+                            <textarea id="message" name="message" rows="5" required
+                                data-placeholder-en="Your message..." data-placeholder-si="ඔබේ පණිවිඩය..."
+                                placeholder="Your message..."></textarea>
+                            <span class="error-message"></span>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary" data-en="Send Message"
+                            data-si="පණිවිඩය යවන්න">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="footer-brand">
+                        <img src="assets/images/logo.jpg" alt="Bandarawela Dairy Logo" class="footer-logo">
+                        <p data-en="Empowering dairy farmers and delivering quality products since 1979"
+                            data-si="1979 සිට කිරි ගොවීන් සවිබල ගැන්වීම සහ ගුණාත්මක නිෂ්පාදන ලබා දීම">
+                            Empowering dairy farmers and delivering quality products since 1979
+                        </p>
+                    </div>
+                </div>
+
+                <div class="footer-col">
+                    <h4 data-en="Quick Links" data-si="ඉක්මන් සබැඳි">Quick Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#about" data-en="About Us" data-si="අප ගැන">About Us</a></li>
+                        <li><a href="#products" data-en="Products" data-si="නිෂ්පාදන">Products</a></li>
+                        <li><a href="#farmers" data-en="For Farmers" data-si="ගොවීන් සඳහා">For Farmers</a></li>
+                        <li><a href="#services" data-en="Services" data-si="සේවා">Services</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4 data-en="Information" data-si="තොරතුරු">Information</h4>
+                    <ul class="footer-links">
+                        <li><a href="#news" data-en="News" data-si="පුවත්">News</a></li>
+                        <li><a href="#contact" data-en="Contact" data-si="සම්බන්ධතා">Contact</a></li>
+                        <li><a href="privacy.html" data-en="Privacy Policy" data-si="රහස්‍යතා ප්‍රතිපත්තිය">Privacy
+                                Policy</a></li>
+                        <li><a href="terms.html" data-en="Terms of Service" data-si="සේවා නියමයන්">Terms of Service</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4 data-en="Connect With Us" data-si="අප සමඟ සම්බන්ධ වන්න">Connect With Us</h4>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/dairycooperative/" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z" />
+                            </svg>
+                        </a>
+                        <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
+                                <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z" />
+                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
+                            </svg>
+                        </a>
+                        <a href="#" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+                            <svg viewBox="0 0 24 24" fill="currentColor">
+                                <path
+                                    d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; <span id="currentYear">2026</span> <span
+                        data-en="Bandarawela Dairy Producers Cooperative Society Ltd. All rights reserved."
+                        data-si="බණ්ඩාරවෙල කිරි නිෂ්පාදක සමුපකාර සංගමය. සියලුම හිමිකම් ඇවිරිණි.">Bandarawela Dairy
+                        Producers Cooperative Society Ltd. All rights reserved.</span></p>
+                <p data-en="Registered under Uva Province Cooperative Development Department"
+                    data-si="ඌව පළාත් සමුපකාර සංවර්ධන දෙපාර්තමේන්තුව යටතේ ලියාපදිංචි">
+                    Registered under Uva Province Cooperative Development Department
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M12 19V5M5 12l7-7 7 7" />
+        </svg>
+    </button>
+
+    <!-- Scripts -->
+    <script src="js/security.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/animations.js"></script>
+</body>
+
+</html>
