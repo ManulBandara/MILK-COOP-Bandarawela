@@ -1,0 +1,22 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "images/uploads"
+
+collections:
+  - name: "news"
+    label: "📰 News"
+    folder: "content/news"
+    create: true
+    extension: "json"
+    format: "json"
+    fields:
+      - {label: "Title (English)", name: "title_en", widget: "string"}
+      - {label: "Title (Sinhala)", name: "title_si", widget: "string"}
+      - {label: "Date", name: "date", widget: "datetime"}
+      - {label: "Category", name: "category", widget: "select",
+         options: ["celebration", "training", "product"]}
+      - {label: "Image", name: "image", widget: "image"}
+      - {label: "Description (English)", name: "body_en", widget: "text"}
+      - {label: "Description (Sinhala)", name: "body_si", widget: "text"}
